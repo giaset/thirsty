@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6885F2C31BD574DE00F20022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885F2C21BD574DE00F20022 /* AppDelegate.swift */; };
-		6885F2C51BD574DE00F20022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885F2C41BD574DE00F20022 /* ViewController.swift */; };
 		6885F2CA1BD574DE00F20022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6885F2C91BD574DE00F20022 /* Assets.xcassets */; };
 		6885F2CD1BD574DE00F20022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6885F2CB1BD574DE00F20022 /* LaunchScreen.storyboard */; };
+		68E7758A1BD88E7400E7E558 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E775891BD88E7400E7E558 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6885F2BF1BD574DD00F20022 /* thirsty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thirsty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6885F2C21BD574DE00F20022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6885F2C41BD574DE00F20022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6885F2C91BD574DE00F20022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6885F2CC1BD574DE00F20022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6885F2CE1BD574DE00F20022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E775891BD88E7400E7E558 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				6885F2C21BD574DE00F20022 /* AppDelegate.swift */,
-				6885F2C41BD574DE00F20022 /* ViewController.swift */,
 				6885F2C91BD574DE00F20022 /* Assets.xcassets */,
 				6885F2CB1BD574DE00F20022 /* LaunchScreen.storyboard */,
 				6885F2CE1BD574DE00F20022 /* Info.plist */,
+				68E775891BD88E7400E7E558 /* LoginViewController.swift */,
 			);
 			path = thirsty;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6885F2C51BD574DE00F20022 /* ViewController.swift in Sources */,
+				68E7758A1BD88E7400E7E558 /* LoginViewController.swift in Sources */,
 				6885F2C31BD574DE00F20022 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
